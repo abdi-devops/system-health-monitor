@@ -15,9 +15,9 @@ Works on macOS and Linux (small command differences)
 
 ### Run locally
 ```bash
-chmod +x system_health_monitor.sh
-bash system_health_monitor.sh
-tail -n 5 system_health.log
+chmod +x system_health_monitor.sh     # makes the script executable
+bash system_health_monitor.sh         # runs it manually
+tail -n 5 system_health.log           # shows the last 5 lines of the log file
 ```
 
 ### Cron example
